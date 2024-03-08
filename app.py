@@ -14,7 +14,6 @@ load_dotenv()
 #OpenAI api key
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-
 #Function to build LLM and Chat With Multiple CSV FIles
 def chat_with_csv(df,prompt):
     llm = OpenAI(api_token=openai_api_key)
