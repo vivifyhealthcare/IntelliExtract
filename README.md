@@ -33,8 +33,8 @@ To set up the Multiple-CSV ChatApp with LLM on your local machine, follow these 
 1. Clone the repository from GitHub:
 
     ```
-    git clone https://github.com/your-username/your-repo-name
-    cd your-repo-name
+    git clone https://github.com/vivifyhealthcare/IntelliExtract-AI.git
+    cd IntelliExtract-AI
     ```
 
 2. Create a conda environment with Python 3.10:
@@ -65,7 +65,7 @@ To set up the Multiple-CSV ChatApp with LLM on your local machine, follow these 
 
 After completing the installation, you can start the Multiple-CSV ChatApp with LLM by running the Streamlit application:
     ```
-    streamlit run your_app_file.py
+    streamlit run app.py
     ```
 
 ## Usage
